@@ -1,0 +1,29 @@
+{
+  "name": "simapan-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SIMAPAN (Sistem Informasi Manajemen Administrasi dan Pelayanan).",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "keywords": [
+    "simapan",
+    "express",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
